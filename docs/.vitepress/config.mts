@@ -15,22 +15,24 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Inicio',
-        items: [
-          { text: 'MaxKing Docs', link: '/' }
-        ]
+        text: 'Inicio', 
+        link: '/'
       },
       {
         text: 'MaxStaff',
+        collapsed: true,
         items: [
-          { text: 'Overview', link: '/maxstaff/' },
-          { text: 'Installation', link: '/maxstaff/installation' },
-          { text: 'Commands', link: '/maxstaff/commands' },
-          { text: 'Permissions', link: '/maxstaff/permissions' }
+          { text: 'Introducción', link: '/maxstaff/' },
+          { text: 'Instalación', link: '/maxstaff/instalacion' },
+          { text: 'Configuración', link: '/maxstaff/configuracion' },
+          { text: 'Comandos', link: '/maxstaff/comandos' },
+          { text: 'Permisos', link: '/maxstaff/permisos' },
+          { text: 'Sanciones', link: '/maxstaff/sanciones' }
         ]
       },
       {
         text: 'MaxClear',
+        collapsed: true,
         items: [
           { text: 'Overview', link: '/maxclear/' },
           { text: 'Installation', link: '/maxclear/installation' },
@@ -39,6 +41,7 @@ export default defineConfig({
       },
       {
         text: 'MaxGraves',
+        collapsed: true,
         items: [
           { text: 'Overview', link: '/maxgraves/' },
           { text: 'Installation', link: '/maxgraves/installation' },
