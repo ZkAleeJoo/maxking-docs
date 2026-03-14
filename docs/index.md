@@ -5,7 +5,7 @@ description: Documentación oficial de mis plugins de Minecraft
 
 # MaxKing Docs
 
-Bienvenido a la documentación oficial de mis plugins de Minecraft.
+Bienvenido a la documentación oficial de mis plugins de Minecraft. asdasdasdsa
 
 Aquí encontrarás guías, instalación, comandos, permisos y configuración de mis recursos.
 
