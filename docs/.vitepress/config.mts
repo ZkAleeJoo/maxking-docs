@@ -23,31 +23,13 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Introducción', link: '/maxstaff/' },
-          { text: 'Instalación', link: '/maxstaff/instalacion' },
-          { text: 'Configuración', link: '/maxstaff/configuracion' },
+          { text: 'Funciones', link: '/maxstaff/funciones' },
           { text: 'Comandos', link: '/maxstaff/comandos' },
           { text: 'Permisos', link: '/maxstaff/permisos' },
-          { text: 'Sanciones', link: '/maxstaff/sanciones' }
+          { text: 'Sanciones', link: '/maxstaff/sanciones' },
+          { text: 'PlaceHolder', link: '/maxstaff/placeholderapi' },
         ]
       },
-      {
-        text: 'MaxClear',
-        collapsed: true,
-        items: [
-          { text: 'Overview', link: '/maxclear/' },
-          { text: 'Installation', link: '/maxclear/installation' },
-          { text: 'Commands', link: '/maxclear/commands' }
-        ]
-      },
-      {
-        text: 'MaxGraves',
-        collapsed: true,
-        items: [
-          { text: 'Overview', link: '/maxgraves/' },
-          { text: 'Installation', link: '/maxgraves/installation' },
-          { text: 'Commands', link: '/maxgraves/commands' }
-        ]
-      }
     ],
 
     socialLinks: [

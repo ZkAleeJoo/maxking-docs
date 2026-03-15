@@ -1,34 +1,29 @@
----
-title: 'Sistema de Sanciones'
-description: 'Configuración y uso del sistema de sanciones y castigos.'
----
+# Sistema Visual de Sanciones (GUI)
+El comando principal para la moderación visual es `/sanction <jugador>`. Este comando abre un flujo de trabajo diseñado para evitar errores humanos.
+1. Menú de Información: Muestra estadísticas del jugador (vida, hambre, IP, total de sanciones y si tiene cuentas vinculadas).
+2. Selección de Tipo: Elige entre Ban, Mute o Kick.
+3. Selección de Motivo: Se presentan los motivos configurados en tu `config.yml` (ej: X-Ray, Spam, Toxicidad).
+4. Duración: Cada motivo tiene 4 duraciones predefinidas (ej: 7d, 30d, Permanente) representadas por tintes de colores.
+5. Confirmación: Una pantalla final para verificar los datos antes de aplicar la sanción.
 
-# Sistema de Sanciones
+# Formatos de Tiempo
+Para sanciones temporales, utiliza las siguientes unidades:
+- `s`: segundos | `m`: minutos | `h`: horas | `d`: días | `w`: semanas
+- Ejemplo: `/ban ZkAleeJoo 30d Uso de hacks`.
 
-MaxStaff Premium incluye un sistema de castigos altamente configurable, adaptado para manejar diferentes modalidades de tu servidor, como Survival, FullPvP y BoxPvP.
+# Sistema de Congelamiento (Freeze/SS)
+Diseñado para revisiones de pantalla o interrogatorios. Al usar `/freeze <jugador>`:
+- Inmovilización: El jugador no puede moverse, romper bloques ni abrir contenedores.
+- Efectos Visuales: Se aplican automáticamente un efecto de ceguera y un casco de hielo (PACKED_ICE).
+- Alerta Intrusiva: El jugador recibe un mensaje gigante en pantalla advirtiéndole que no se desconecte.
 
-Toda la sección de sanciones se maneja en ESPAÑOL por defecto.
+# Historial y Gestión de Datos
+- Ver Historial: Usa `/history <jugador>` para ver el registro detallado de todas las sanciones pasadas, quién las aplicó y por qué motivo.
+- Limpiar Datos: Solo los administradores pueden usar los subcomandos de `/maxstaff`:
+  - `/maxstaff reset <jugador> <tipo/ALL>`: Elimina el historial completo.
+  - `/maxstaff take <jugador> <tipo> [cantidad]`: Elimina una cantidad específica de sanciones del registro.
 
-## Categorías de Sanción
-
-El plugin divide los castigos en tres categorías principales que puedes configurar:
-* **BAN:** Expulsión temporal o permanente del servidor.
-* **MUTE:** Silenciamiento temporal del chat.
-* **KICK:** Expulsión instantánea del servidor.
-
-### Ejemplo de Configuración: Survival
-
-En la modalidad Survival, puedes castigar a los jugadores por diversas infracciones. Cada infracción tiene un ítem representativo y duraciones predefinidas:
-
-* **Uso de X-Ray:** Se representa con un diamante (`DIAMOND_ORE`) y tiene duraciones escalonadas de 15 días, 30 días, 60 días y permanente.
-* **Hacks de Movimiento (Fly/Speed/Jesus):** Representado por una pluma (`FEATHER`), con sanciones de 14 días, 30 días, 60 días o permanente.
-* **Griefing de construcciones:** Representado por dinamita (`TNT`), con castigos de 7 días, 15 días, 30 días o permanente.
-
-### Modalidades Competitivas (FullPvP y BoxPvP)
-
-Para modalidades enfocadas en el combate, existen razones de sanción específicas:
-
-* **Hacks de Combate (KillAura / AimAssist):** Aplica baneos de 30 días, 60 días, 90 días o permanente.
-* **Team / Colusión en arenas (BoxPvP):** Penalizado con 15 días, 30 días, 60 días o baneo permanente.
-
-> **Soporte:** Para más información o soporte, visita nuestro servidor de Discord: https://discord.gg/Vr46JHm2kd.
+# Sistema de Reportes
+Los jugadores pueden colaborar con la moderación usando el comando `/report <jugador> <motivo>`.
+- Notificaciones: El staff en línea recibirá una alerta inmediata con el nombre del acusador, el acusado y el motivo.
+- Protección: Incluye un sistema de cooldown para evitar que los jugadores abusen del sistema de reportes.

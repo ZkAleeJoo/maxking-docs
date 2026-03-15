@@ -1,33 +1,44 @@
+# Administración General
+
+| Comando | Alias | Permiso | Descripción |
+|---------|-------|---------|-------------|
+| `/maxstaff` | `/ms` | `maxstaff.admin` | Comando principal de MaxStaff |
+| `/staff` | `/s`, `/staffmode` | `maxstaff.command.staff` | Activar o desactivar el modo staff |
+| `/gamemode` | `/gm` | `maxstaff.gamemode` | Selector de modo de juego (GUI) |
+| `/vanish` | — | `maxstaff.vanish` | Activar/desactivar invisibilidad |
+| `/freeze` | `/ss` | `maxstaff.freeze` | Congelar a un jugador |
+| `/unfreeze` | `/uss` | `maxstaff.freeze` | Descongelar a un jugador |
+| `/invsee` | — | `maxstaff.invsee` | Ver el inventario de un jugador en tiempo real |
+| `/revive` | — | `maxstaff.revive` | Restaurar inventarios de muertes recientes |
+
 ---
-title: 'Comandos y Permisos'
-description: 'Lista completa de todos los comandos disponibles en MaxStaff.'
+
+# Sanciones
+
+| Comando | Permiso | Descripción |
+|---------|---------|-------------|
+| `/ban <jugador> [tiempo] [razón]` | `maxstaff.punish.ban` | Banear a un jugador |
+| `/tempban` | `maxstaff.punish.ban` | Banear temporalmente a un jugador |
+| `/unban` | `maxstaff.punish.unban` | Desbanear a un jugador |
+| `/mute` | `maxstaff.punish.mute` | Silenciar a un jugador |
+| `/tempmute` | `maxstaff.punish.mute` | Silenciar temporalmente a un jugador |
+| `/unmute` | `maxstaff.punish.unmute` | Dessilenciar a un jugador |
+| `/kick` | `maxstaff.punish.kick` | Expulsar a un jugador |
+| `/warn` | `maxstaff.punish.warn` | Advertir a un jugador |
+| `/ban-ip` | `maxstaff.punish.banip` | Banear una dirección IP |
+| `/tempban-ip` | `maxstaff.punish.banip` | Banear temporalmente una IP |
+| `/unban-ip` | `maxstaff.punish.unbanip` | Desbanear una IP |
+| `/sanction` | `maxstaff.punish` | Menú avanzado de sanciones |
+| `/history` | `maxstaff.history` | Ver historial de sanciones |
+
 ---
 
-# Comandos y Permisos
+# Supervisión y Chat
 
-MaxStaff cuenta con una amplia variedad de comandos administrativos. A continuación, encontrarás la tabla de comandos junto con el permiso necesario para ejecutarlos. 
-
-*El permiso maestro para tener acceso total al plugin es `maxstaff.admin`*.
-
-| Comando | Descripción | Permiso |
-| :--- | :--- | :--- |
-| `/maxstaff` | Comando principal del plugin | `maxstaff.admin` |
-| `/staff` | Activa o desactiva el modo staff | `maxstaff.command.staff` |
-| `/vanish` | Alterna la invisibilidad del jugador | `maxstaff.vanish` |
-| `/sanction` | Abre el menú avanzado de sanciones | `maxstaff.punish` |
-| `/ban <jugador>` | Banea a un jugador | `maxstaff.punish.ban` |
-| `/mute <jugador>` | Silencia a un jugador | `maxstaff.punish.mute` |
-| `/kick <jugador>` | Expulsa a un jugador del servidor | `maxstaff.punish.kick` |
-| `/warn <jugador>` | Advierte a un jugador | `maxstaff.punish.warn` |
-| `/freeze <jugador>` | Congela (SS) a un jugador | `maxstaff.freeze` |
-| `/invsee <jugador>`| Permite ver el inventario de un jugador en tiempo real | `maxstaff.invsee` |
-| `/revive <jugador>`| Restaura inventarios de muertes recientes | `maxstaff.revive` |
-| `/sc <mensaje>` | Envía un mensaje por el chat del staff | `maxstaff.staffchat` |
-| `/alts <jugador>` | Muestra las cuentas alternativas de un usuario | `maxstaff.alts` |
-| `/history` | Muestra el historial de sanciones | `maxstaff.history` |
-| `/report <jugador>`| Permite a los usuarios reportar a alguien | `maxstaff.report` |
-| `/cmdspy` | Espía los comandos ejecutados por otros | `maxstaff.cmdspy` |
-| `/gamemode` | Selector de modo de juego | `maxstaff.gamemode` |
-| `/chat` | Gestiona el chat global (limpiar/mutear) | `maxstaff.chat.admin` |
-
-*(Nota: Los comandos /ban, /mute y /ban-ip tienen sus respectivas variantes temporales como /tempban y /tempmute que utilizan los mismos permisos)*.
+| Comando | Alias | Permiso | Descripción |
+|---------|-------|---------|-------------|
+| `/sc` | — | `maxstaff.staffchat` | Chat privado del staff |
+| `/cmdspy` | — | `maxstaff.cmdspy` | Espiar los comandos de otros jugadores |
+| `/chat` | — | `maxstaff.chat.admin` | Gestionar el chat global |
+| `/alts` | `/alt`, `/accs` | `maxstaff.alts` | Ver cuentas alternativas de un jugador |
+| `/report` | `/reportar` | `maxstaff.report` | Reportar a un jugador |
