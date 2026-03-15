@@ -5,6 +5,10 @@ export default defineConfig({
   description: 'Documentación oficial de mis plugins de Minecraft',
   base: '/maxking-docs/',
 
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.ico' }]
+  ],
+
   themeConfig: {
     logo: '/logo.png',
 
@@ -15,7 +19,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Inicio', 
+        text: 'Inicio',
         link: '/'
       },
       {
@@ -27,9 +31,9 @@ export default defineConfig({
           { text: 'Comandos', link: '/maxstaff/comandos' },
           { text: 'Permisos', link: '/maxstaff/permisos' },
           { text: 'Sanciones', link: '/maxstaff/sanciones' },
-          { text: 'PlaceHolder', link: '/maxstaff/placeholderapi' },
+          { text: 'PlaceHolder', link: '/maxstaff/placeholderapi' }
         ]
-      },
+      }
     ],
 
     socialLinks: [
