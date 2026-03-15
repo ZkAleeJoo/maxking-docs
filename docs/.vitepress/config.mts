@@ -6,11 +6,11 @@ export default defineConfig({
   base: '/maxking-docs/',
 
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/maxking-docs/favicon.ico' }]
   ],
 
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/favicon.ico',
 
     nav: [
       { text: 'Inicio', link: '/' },
