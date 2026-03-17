@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'MaxKing Docs',
+  title: 'MaxKing Wiki',
   description: 'Documentación oficial de mis plugins de Minecraft',
   base: '/maxking-docs/',
 
