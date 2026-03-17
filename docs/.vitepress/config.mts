@@ -23,15 +23,15 @@ export default defineConfig({
         link: '/'
       },
       {
-        text: 'MaxStaff',
+        text: 'MAXSTAFF',
         collapsed: true,
         items: [
-          { text: 'Introducción', link: '/maxstaff/' },
-          { text: 'Funciones', link: '/maxstaff/funciones' },
-          { text: 'Comandos', link: '/maxstaff/comandos' },
-          { text: 'Permisos', link: '/maxstaff/permisos' },
-          { text: 'Sanciones', link: '/maxstaff/sanciones' },
-          { text: 'PlaceHolder', link: '/maxstaff/placeholderapi' }
+          { text: '1. Introducción', link: '/maxstaff/' },
+          { text: '2. Funciones', link: '/maxstaff/funciones' },
+          { text: '3. Comandos', link: '/maxstaff/comandos' },
+          { text: '4. Permisos', link: '/maxstaff/permisos' },
+          { text: '5. Sanciones', link: '/maxstaff/sanciones' },
+          { text: '6. PlaceHolder', link: '/maxstaff/placeholderapi' }
         ]
       }
     ],

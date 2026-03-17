@@ -1,26 +1,26 @@
-# Instalación y Requisitos
-En esta sección aprenderás cómo instalar **MaxStaff** en tu servidor y realizar la configuración inicial básica.
+# INSTALACIÓN Y REQUISITOS
+> En esta sección aprenderás cómo instalar **MaxStaff** en tu servidor y realizar la configuración inicial básica para que el plugin funcione de buena manera, como siempre tienes el servidor de discord https://discord.gg/Vr46JHm2kd
 
-# Requisitos Técnicos
+## 1. Requisitos Técnicos
 Antes de continuar, asegúrate de que tu entorno cumpla con los siguientes requisitos:
 
 - **Versión de Minecraft:** 1.19.x (Probado específicamente en 1.19.4).
 - **Java:** Versión 17 o superior.
 - **Software del servidor:** Paper o cualquier fork compatible con la API de Spigot.
 
-# Dependencias Opcionales
+## 2. Dependencias Opcionales
 Aunque el plugin funciona por sí solo, recomendamos instalar:
 
 - [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/):  
   Necesario para mostrar estadísticas de sanciones y estados del staff en otros plugins (Scoreboards, TabLists, etc.).
 
-# Guía de Instalación
+## 3. Guía de Instalación
 1. Descarga el archivo **.jar** de la última versión de **MaxStaff**.
 2. Sube el archivo a la carpeta `/plugins/` de tu servidor de Minecraft.
 3. Reinicia el servidor (o usa un cargador de plugins) para generar los archivos de configuración.
 4. ¡Listo! El plugin ahora estará activo con la configuración por defecto.
 
-# Configuración Inicial: Cambiar a Español
+## 4. Configuración Inicial: Cambiar a Español
 Por defecto, el plugin se genera en inglés. Sigue estos pasos para cambiarlo a español:
 
 1. Ve a la carpeta `/plugins/MaxStaff/`.
