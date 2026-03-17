@@ -31,10 +31,9 @@ export default defineConfig({
         items: [
           { text: '1. Introducción', link: '/maxstaff/' },
           { text: '2. Funciones', link: '/maxstaff/funciones' },
-          { text: '3. Comandos', link: '/maxstaff/comandos' },
-          { text: '4. Permisos', link: '/maxstaff/permisos' },
-          { text: '5. Sanciones', link: '/maxstaff/sanciones' },
-          { text: '6. PlaceHolder', link: '/maxstaff/placeholderapi' }
+          { text: '3. Comandos y Permisos', link: '/maxstaff/comandos-permisos' },
+          { text: '4. Sanciones', link: '/maxstaff/sanciones' },
+          { text: '5. PlaceHolder', link: '/maxstaff/placeholderapi' }
         ]
       }
     ],
