@@ -13,30 +13,10 @@
   --vp-c-brand-3: #d9482b;
 
   --vp-c-divider: rgba(255, 255, 255, 0.08);
-
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(90deg, #ffb36b 0%, #ff7a3d 50%, #ff4d36 100%);
-  --vp-home-hero-image-background-image:
-    radial-gradient(circle at 20% 20%, rgba(255, 138, 61, 0.24) 0%, transparent 28%),
-    radial-gradient(circle at 80% 10%, rgba(255, 90, 54, 0.20) 0%, transparent 24%);
-  --vp-home-hero-image-filter: blur(54px);
 }
 
 .dark {
   --vp-c-bg: #090909;
-  --vp-c-bg-soft: #121212;
-  --vp-c-bg-alt: #181312;
-  --vp-c-border: rgba(255, 255, 255, 0.08);
-
-  --vp-c-text-1: #f7efe9;
-  --vp-c-text-2: #d7c7bf;
-  --vp-c-text-3: #a99489;
-
-  --vp-c-brand-1: #ff8a3d;
-  --vp-c-brand-2: #ff5a36;
-  --vp-c-brand-3: #d9482b;
-
-  --vp-c-divider: rgba(255, 255, 255, 0.08);
 }
 
 html,
@@ -48,15 +28,24 @@ body,
     linear-gradient(180deg, #090909 0%, #0d0a0a 100%);
 }
 
-/* Navbar */
+
 .VPNav {
-  background: rgba(10, 10, 10, 0.78) !important;
+  background: rgba(10, 10, 10, 0.86) !important;
   backdrop-filter: blur(16px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 138, 61, 0.12);
+  box-shadow: none !important;
 }
 
-.VPNavBar {
+.VPNavBar,
+.VPNavBar.has-sidebar,
+.VPLocalNav {
   background: transparent !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.VPContent {
+  border-top: none !important;
 }
 
 .VPNavBar .title,
@@ -70,25 +59,14 @@ body,
   color: #ff9d57 !important;
 }
 
-/* Sidebar izquierda */
-.VPSidebar {
-  background:
-    linear-gradient(180deg, rgba(11, 11, 11, 0.98), rgba(18, 12, 10, 0.98)) !important;
-  border-right: 1px solid rgba(255, 255, 255, 0.05);
-}
 
-.VPSidebar .group + .group {
-  border-top: 1px solid rgba(255, 255, 255, 0.04);
-  padding-top: 12px;
+.VPSidebar {
+  background: linear-gradient(180deg, rgba(11, 11, 11, 0.98), rgba(18, 12, 10, 0.98)) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .VPSidebarItem .text {
   transition: 0.25s ease;
-}
-
-.VPSidebarItem.level-0 > .item > .text {
-  font-weight: 700;
-  letter-spacing: 0.3px;
 }
 
 .VPSidebarItem.is-active > .item {
@@ -101,17 +79,11 @@ body,
   color: #ff9d57;
 }
 
-/* Contenido */
-.VPContent,
-.VPDoc {
-  background: transparent;
-}
 
 .VPDoc .container {
   padding-bottom: 180px;
 }
 
-/* Caja principal */
 .vp-doc {
   background: linear-gradient(
     180deg,
@@ -127,7 +99,6 @@ body,
     0 0 0 1px rgba(255, 138, 61, 0.03) inset;
 }
 
-/* Texto */
 .vp-doc p,
 .vp-doc li {
   text-align: justify;
@@ -147,42 +118,10 @@ body,
   padding: 2px 6px;
 }
 
-.vp-doc h1,
-.vp-doc h2,
-.vp-doc h3,
-.vp-doc h4,
-.vp-doc h5,
-.vp-doc h6 {
-  scroll-margin-top: 90px;
-}
-
-/* Blockquote */
-.vp-doc blockquote {
-  text-align: justify;
-  border-left: 3px solid #ff8a3d;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 138, 61, 0.12),
-    rgba(255, 90, 54, 0.08)
-  );
-  border-radius: 14px;
-  padding: 16px 18px;
-  margin: 20px 0;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
-}
-
-.vp-doc blockquote p {
-  margin: 0;
-  color: #f5ddd0;
-}
-
-/* Encabezados */
 .vp-doc h1 {
-  background: linear-gradient(90deg, #ffd089 0%, #ff9a4d 45%, #ff653a 100%);
+  background: linear-gradient(90deg, #ffd089, #ff9a4d, #ff653a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  letter-spacing: 0.3px;
-  font-weight: 800;
 }
 
 .vp-doc h2 {
@@ -196,52 +135,26 @@ body,
   color: #ffc999;
 }
 
-/* Links */
+.vp-doc blockquote {
+  border-left: 3px solid #ff8a3d;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 138, 61, 0.12),
+    rgba(255, 90, 54, 0.08)
+  );
+  border-radius: 14px;
+  padding: 16px 18px;
+}
+
 .vp-doc a {
   color: #ff9a4d;
-  text-decoration: none;
-  transition: 0.2s ease;
 }
 
 .vp-doc a:hover {
   color: #ff6d43;
-  text-decoration: underline;
 }
 
-/* Listas */
-.vp-doc ul li::marker,
-.vp-doc ol li::marker {
-  color: #ff8a3d;
-}
 
-/* Tablas */
-.vp-doc table {
-  border-radius: 14px;
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.vp-doc th {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 138, 61, 0.14),
-    rgba(255, 90, 54, 0.10)
-  );
-  color: #fff0e8;
-}
-
-.vp-doc tr:nth-child(even) {
-  background: rgba(255, 255, 255, 0.02);
-}
-
-/* Línea decorativa */
-.vp-doc hr {
-  border: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.07);
-  margin: 30px 0;
-}
-
-/* Aside derecha */
 .VPDocAside .content {
   background: linear-gradient(
     180deg,
@@ -251,34 +164,16 @@ body,
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 18px;
   padding: 14px;
-  backdrop-filter: blur(14px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
 }
 
-.VPDocAsideOutline .title {
-  color: #fff1e8;
-}
-
-.VPDocAsideOutline .outline-link {
-  color: #c8ada0;
-  transition: 0.2s ease;
-}
-
-.VPDocAsideOutline .outline-link:hover,
 .VPDocAsideOutline .outline-link.active {
   color: #ff9a4d;
 }
 
 .VPDocAsideOutline .outline-marker {
   background: linear-gradient(180deg, #ff9a4d, #ff5a36);
-  width: 3px;
-  border-radius: 999px;
 }
 
-/* Previous / next */
-.VPDocFooter .prev-next {
-  gap: 14px;
-}
 
 .VPDocFooter .pager-link {
   background: linear-gradient(
@@ -286,40 +181,17 @@ body,
     rgba(20, 15, 14, 0.82),
     rgba(14, 10, 9, 0.76)
   );
-  border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 16px;
-  backdrop-filter: blur(10px);
-  transition: 0.25s ease;
 }
 
 .VPDocFooter .pager-link:hover {
   border-color: rgba(255, 138, 61, 0.30);
-  box-shadow: 0 10px 24px rgba(255, 90, 54, 0.10);
 }
 
-.VPDocFooter .pager-link .title {
-  color: #ff9a4d;
-}
-
-/* Botones y switches */
-.VPSwitchAppearance {
-  border-color: rgba(255, 255, 255, 0.08) !important;
-}
-
-/* Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-::-webkit-scrollbar-track {
-  background: #090909;
-}
-
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(180deg, #ff8a3d, #d9482b);
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #ff9f59, #ff5a36);
 }

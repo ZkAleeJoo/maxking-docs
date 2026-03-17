@@ -1,9 +1,12 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'MaxKing Wiki',
+  lang: 'es-ES',
+  title: 'MaxKing Docs',
   description: 'Documentación oficial de mis plugins de Minecraft',
   base: '/maxking-docs/',
+
+  appearance: 'force-dark',
 
   head: [
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/maxking-docs/favicon.ico' }]
@@ -38,6 +41,20 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ZkAleeJoo' }
-    ]
+    ],
+
+    outline: {
+      level: [2, 3],
+      label: 'En esta página'
+    },
+
+    docFooter: {
+      prev: 'Página anterior',
+      next: 'Página siguiente'
+    },
+
+    darkModeSwitchLabel: 'Tema',
+    sidebarMenuLabel: 'Menú',
+    returnToTopLabel: 'Volver arriba'
   }
 })
