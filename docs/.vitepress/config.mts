@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/maxking-docs/',
 
   appearance: 'force-dark',
-
+ 
   head: [
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/maxking-docs/favicon.ico' }]
   ],
