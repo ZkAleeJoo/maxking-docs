@@ -26,7 +26,14 @@ export default defineConfig({
         link: '/'
       },
       {
-        text: 'MAXGRAVES',
+        text: 'MAX-EVOLUTIONTOOLS',
+        collapsed: true,
+        items: [
+          { text: '1. Introducción', link: '/maxevolutiontools/' },
+        ]
+      },
+      {
+        text: 'MAX-GRAVES',
         collapsed: true,
         items: [
           { text: '1. Introducción', link: '/maxgraves/' },
@@ -35,7 +42,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'MAXSTAFF',
+        text: 'MAX-STAFF',
         collapsed: true,
         items: [
           { text: '1. Introducción', link: '/maxstaff/' },
@@ -57,7 +64,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'MAXCLEAR',
+        text: 'MAX-CLEAR',
         collapsed: true,
         items: [
           { text: '1. Introducción', link: '/maxclear/' },
