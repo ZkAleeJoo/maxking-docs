@@ -21,5 +21,5 @@
 > Por defecto, el plugin se genera en inglés. Sigue estos pasos para cambiarlo a español:
 1. Ve a la carpeta `/plugins/MaxStaff/`.
 2. Abre el archivo `config.yml`.
-3. Busca la opción `language` dentro de la sección `general`.
+3. Busca la opción `language` dentro de la sección `general`. 
 4. Cambia `"en"` por `"es"`.
