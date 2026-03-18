@@ -50,6 +50,8 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: '1. Herramientas', link: '/maxstaff/adicional/herramientas' },
+              { text: '2. Protecciones', link: '/maxstaff/adicional/protecciones' },
+              { text: '3. Personalización', link: '/maxstaff/adicional/personalización' },
             ]
           }
         ]
