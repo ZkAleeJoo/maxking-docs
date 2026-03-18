@@ -43,7 +43,15 @@ export default defineConfig({
           { text: '3. Comandos y Permisos', link: '/maxstaff/comandos-permisos' },
           { text: '4. Sanciones', link: '/maxstaff/sanciones' },
           { text: '5. PlaceHolder', link: '/maxstaff/placeholderapi' },
-          { text: '6. Discord', link: '/maxstaff/discord' }
+          { text: '6. Discord', link: '/maxstaff/discord' },
+          { text: '7. Base de Datos', link: '/maxstaff/database' },
+          {
+            text: 'Información Adicional',
+            collapsed: true,
+            items: [
+              { text: '1. Herramientas', link: '/maxstaff/adicional/herramientas' },
+            ]
+          }
         ]
       },
       {
