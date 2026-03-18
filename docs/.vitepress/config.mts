@@ -35,6 +35,15 @@ export default defineConfig({
           { text: '4. Sanciones', link: '/maxstaff/sanciones' },
           { text: '5. PlaceHolder', link: '/maxstaff/placeholderapi' }
         ]
+      },
+      {
+        text: 'MAXCLEAR',
+        collapsed: true,
+        items: [
+          { text: '1. Introducción', link: '/maxclear/' },
+          { text: '2. Funciones', link: '/maxclear/funciones' },
+          { text: '3. Comandos y Permisos', link: '/maxclear/comandos-permisos' }
+        ]
       }
     ],
 
