@@ -26,6 +26,15 @@ export default defineConfig({
         link: '/'
       },
       {
+        text: 'MAXGRAVES',
+        collapsed: true,
+        items: [
+          { text: '1. Introducción', link: '/maxgraves/' },
+          { text: '2. Funciones', link: '/maxgraves/funciones' },
+          { text: '3. Comandos y Permisos', link: '/maxgraves/comandos-permisos' }
+        ]
+      },
+      {
         text: 'MAXSTAFF',
         collapsed: true,
         items: [

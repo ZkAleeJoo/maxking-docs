@@ -7,7 +7,7 @@
 - **Java:** Versión 17 o superior.
 - **Software del servidor:** Spigot, Paper o cualquier fork compatible con la API de Spigot.
 
-## 3. Guía de instalación
+## 2. Guía de instalación
 - Descarga el archivo **.jar** de la última versión de **MaxClear**.
 - Sube el archivo a la carpeta `/plugins/` de tu servidor de Minecraft.
 - Reinicia el servidor (o usa un cargador de plugins) para generar los archivos de configuración.
