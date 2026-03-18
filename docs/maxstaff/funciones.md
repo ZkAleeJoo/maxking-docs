@@ -3,7 +3,7 @@
 
 ## 1. Modo Staff
 > Cuando ejecutas el comando `/staff`, el plugin realiza automáticamente las siguientes acciones para facilitar tu trabajo:
-
+ 
 - `Guardado de Inventario:` Tu inventario actual, armadura, modo de juego y nivel de hambre se guardan de forma segura para restaurarse cuando salgas del modo, si por motivos X te desconectas del servidor, tus datos quedarán guardados en un archivo, así, cuando vuelvas a entrar al servidor recuperarás tus cosas.
 - `Capacidades Administrativas:` Se activa el vuelo, obtienes invulnerabilidad, se bloquea la pérdida de hambre, nadie te puede escuchar, no puedes golpear a los jugadores, etc...
 - `Vanish Automático:` Al entrar en este modo te vuelves invisible para los jugadores que no tengan permisos especiales, se le puede otorgar un permiso especial a los jugadores para poder ver al staff en vanish [Permisos](/maxstaff/permisos)

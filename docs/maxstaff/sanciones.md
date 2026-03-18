@@ -11,7 +11,7 @@
 
   ![alt text](/maxstaff/imagenes/menu-sanciones.png)
 
-</details>
+</details> 
 
 - `Información:` Muestra estadísticas del jugador (vida, hambre, IP, total de sanciones y si tiene cuentas vinculadas).
 - `Estadísticas:` Información sobre el jugador UUID, tiempo jugado, sanciones totales.

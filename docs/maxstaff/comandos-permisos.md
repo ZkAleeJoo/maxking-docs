@@ -4,7 +4,7 @@
 | Comando | Alias | Uso | Permiso |
 |---------|-------|-------|-------|
 | `/maxstaff` | `/ms` | - | maxstaff.admin |
-| `/staff` | `/s`, `/staffmode` | - | maxstaff.command.staff |
+| `/staff` | `/s`, `/staffmode` | - | maxstaff.command.staff | 
 | `/ban` | - | `/ban [jugador] <tiempo> <razón>` | maxstaff.punish.ban |
 | `/tempban` | - | `/tempban [jugador] [tiempo] <razón>` | maxstaff.punish.ban |
 | `/mute` | - | `/mute [jugador] <tiempo> <razón>` | maxstaff.punish.mute |

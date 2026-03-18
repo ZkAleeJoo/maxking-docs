@@ -6,7 +6,7 @@
 - **Versión de Minecraft:** 1.19.x (Probado específicamente en 1.19.4).
 - **Java:** Versión 17 o superior.
 - **Software del servidor:** Paper, Purpur, Puperfish o cualquier fork compatible con la API de Paper.
-
+ 
 ## 2. Dependencias opcionales
 > Aunque el plugin funciona por sí solo, recomendamos instalar:
 - [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/): Necesario para mostrar estadísticas de sanciones y estados del staff en otros plugins (Scoreboards, TabLists, etc.). Esto es recomendado si quieres tener mas información de lo que sucede en tu servidor, puedes encontrar los placeholder de **MaxStaff** en la sección de [Placeholders MaxStaff](/maxstaff/placeholderapi)

@@ -7,7 +7,7 @@
 
 ## Información
 > Estos placeholder funcionarán siempre y cuando tengas el plugin PlaceholderAPI instalado:
-
+ 
 ### Estados de staff
 - `%maxstaff_in_staff_mode%` - Indica si el usuario tiene el modo staff activo.
 - `%maxstaff_vanished%` - Indica si el usuario está invisible (Vanish).
