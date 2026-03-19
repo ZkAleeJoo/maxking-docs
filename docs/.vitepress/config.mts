@@ -1,95 +1,103 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  title: "MaxKing Docs",
+  description: "Documentación oficial de los plugins Max.",
   lang: 'es-ES',
-  title: 'MaxKing Docs',
-  description: 'Documentación oficial de mis plugins de Minecraft',
-  base: '/maxking-docs/',
-
-  appearance: 'force-dark',
 
   head: [
-    ['link', { rel: 'icon', type: 'image/x-icon', href: '/maxking-docs/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
 
   themeConfig: {
-    logo: '/favicon.ico',
-
     nav: [
       { text: 'Inicio', link: '/' },
-      { text: 'GitHub', link: 'https://github.com/ZkAleeJoo' }
+      { text: 'MaxStaff', link: '/maxstaff/' },
+      { text: 'MaxClear', link: '/maxclear/' },
+      { text: 'MaxGraves', link: '/maxgraves/' },
+      { text: 'EvolutionTools', link: '/maxevolutiontools/' }
     ],
 
-    sidebar: [
-      {
-        text: 'Inicio',
-        link: '/'
-      },
-      {
-        text: 'MAX-EVOLUTIONTOOLS',
-        collapsed: true,
-        items: [
-          { text: '1. Introducción', link: '/maxevolutiontools/' },
-        ]
-      },
-      {
-        text: 'MAX-GRAVES',
-        collapsed: true,
-        items: [
-          { text: '1. Introducción', link: '/maxgraves/' },
-          { text: '2. Funciones', link: '/maxgraves/funciones' },
-          { text: '3. Comandos y Permisos', link: '/maxgraves/comandos-permisos' }
-        ]
-      },
-      {
-        text: 'MAX-STAFF',
-        collapsed: true,
-        items: [
-          { text: '1. Introducción', link: '/maxstaff/' },
-          { text: '2. Funciones', link: '/maxstaff/funciones' },
-          { text: '3. Comandos y Permisos', link: '/maxstaff/comandos-permisos' },
-          { text: '4. Sanciones', link: '/maxstaff/sanciones' },
-          { text: '5. PlaceHolder', link: '/maxstaff/placeholderapi' },
-          { text: '6. Discord', link: '/maxstaff/discord' },
-          { text: '7. Base de Datos', link: '/maxstaff/database' },
-          {
-            text: 'Información Adicional',
-            collapsed: true,
-            items: [
-              { text: '1. Herramientas', link: '/maxstaff/adicional/herramientas' },
-              { text: '2. Protecciones', link: '/maxstaff/adicional/protecciones' },
-              { text: '3. Personalización', link: '/maxstaff/adicional/personalización' },
-            ]
+    sidebar: {
+      '/maxstaff/': [
+        {
+          text: 'MaxStaff',
+          items: [
+            { text: 'Inicio', link: '/maxstaff/' },
+            { text: 'Funciones', link: '/maxstaff/funciones' },
+            { text: 'Comandos y Permisos', link: '/maxstaff/comandos-permisos' },
+            { text: 'Sanciones (GUI)', link: '/maxstaff/sanciones' },
+            { text: 'PlaceholderAPI', link: '/maxstaff/placeholderapi' },
+            { text: 'Base de Datos', link: '/maxstaff/database' },
+            { text: 'Discord', link: '/maxstaff/discord' }
+          ]
+        },
+        {
+          text: 'Adicional',
+          collapsed: true,
+          items: [
+            { text: 'Personalización', link: '/maxstaff/adicional/personalización' },
+            { text: 'Protecciones', link: '/maxstaff/adicional/protecciones' },
+            { text: 'Herramientas', link: '/maxstaff/adicional/herramientas' }
+          ]
+        }
+      ],
+
+      '/maxclear/': [
+        {
+          text: 'MaxClear',
+          items: [
+            { text: 'Inicio', link: '/maxclear/' },
+            { text: 'Funciones', link: '/maxclear/funciones' },
+            { text: 'Comandos y Permisos', link: '/maxclear/comandos-permisos' }
+          ]
+        }
+      ],
+
+      '/maxgraves/': [
+        {
+          text: 'MaxGraves',
+          items: [
+            { text: 'Inicio', link: '/maxgraves/' },
+            { text: 'Funciones', link: '/maxgraves/funciones' },
+            { text: 'Comandos y Permisos', link: '/maxgraves/comandos-permisos' }
+          ]
+        }
+      ]
+    },
+
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          root: {
+            translations: {
+              button: {
+                buttonText: 'Buscar',
+                buttonAriaLabel: 'Buscar'
+              },
+              modal: {
+                noResultsText: 'No se encontraron resultados para',
+                resetButtonTitle: 'Borrar criterio de búsqueda',
+                footer: {
+                  selectText: 'para seleccionar',
+                  navigateText: 'para navegar',
+                  closeText: 'para cerrar'
+                }
+              }
+            }
           }
-        ]
-      },
-      {
-        text: 'MAX-CLEAR',
-        collapsed: true,
-        items: [
-          { text: '1. Introducción', link: '/maxclear/' },
-          { text: '2. Funciones', link: '/maxclear/funciones' },
-          { text: '3. Comandos y Permisos', link: '/maxclear/comandos-permisos' }
-        ]
+        }
       }
-    ],
+    },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/ZkAleeJoo' }
+      { icon: 'discord', link: 'https://discord.gg/TU_LINK_AQUI' }
     ],
 
-    outline: {
-      level: [2, 3],
-      label: 'En esta página'
-    },
-
-    docFooter: {
-      prev: 'Página anterior',
-      next: 'Página siguiente'
-    },
-
-    darkModeSwitchLabel: 'Tema',
-    sidebarMenuLabel: 'Menú',
-    returnToTopLabel: 'Volver arriba'
+    footer: {
+      message: 'Cualquier duda o consutla por nuestro servidor de discord',
+      copyright: 'Copyright © 2026 MaxKing'
+    }
   }
 })
