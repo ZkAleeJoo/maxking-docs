@@ -12,6 +12,23 @@ export default defineConfig({
   ],
 
   themeConfig: {
+
+    outline: {
+      label: 'En esta página',
+      level: [2, 3]
+    },
+
+    docFooter: {
+      prev: 'Página anterior',
+      next: 'Siguiente página'
+    },
+
+    returnToTopLabel: 'Volver arriba',
+
+    sidebarMenuLabel: 'Menú',
+
+    darkModeSwitchLabel: 'Apariencia',
+
     nav: [
       { text: 'Inicio', link: '/' },
       {
@@ -126,5 +143,7 @@ export default defineConfig({
       message: 'Cualquier duda o consutla por nuestro servidor de discord',
       copyright: 'Copyright © 2026 MaxKing'
     }
+
+
   }
 })
