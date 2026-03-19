@@ -5,6 +5,8 @@ export default defineConfig({
   description: "Documentación oficial de los plugins Max.",
   lang: 'es-ES',
 
+  appearance: 'force-dark',
+
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
@@ -12,55 +14,80 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Inicio', link: '/' },
-      { text: 'MaxStaff', link: '/maxstaff/' },
-      { text: 'MaxClear', link: '/maxclear/' },
-      { text: 'MaxGraves', link: '/maxgraves/' },
-      { text: 'EvolutionTools', link: '/maxevolutiontools/' }
+      {
+        text: 'Plugins',
+        items: [
+          {
+            text: '👑 PREMIUM',
+            items: [
+              { text: 'MaxStaff', link: '/maxstaff/' }
+            ]
+          },
+          {
+            text: '🌳 GRATUITOS',
+            items: [
+              { text: 'MaxClear', link: '/maxclear/' },
+              { text: 'MaxGraves', link: '/maxgraves/' },
+              { text: 'MaxEvolutionTools', link: '/maxevolutiontools/' }
+            ]
+          }
+        ]
+      },
+      { text: 'Contacto', link: 'https://discord.gg/Vr46JHm2kd' }
     ],
 
     sidebar: {
       '/maxstaff/': [
         {
-          text: 'MaxStaff',
+          text: 'MAXSTAFF',
           items: [
-            { text: 'Inicio', link: '/maxstaff/' },
-            { text: 'Funciones', link: '/maxstaff/funciones' },
-            { text: 'Comandos y Permisos', link: '/maxstaff/comandos-permisos' },
-            { text: 'Sanciones (GUI)', link: '/maxstaff/sanciones' },
-            { text: 'PlaceholderAPI', link: '/maxstaff/placeholderapi' },
-            { text: 'Base de Datos', link: '/maxstaff/database' },
-            { text: 'Discord', link: '/maxstaff/discord' }
+            { text: '1. Inicio', link: '/maxstaff/' },
+            { text: '2. Funciones', link: '/maxstaff/funciones' },
+            { text: '3. Comandos y Permisos', link: '/maxstaff/comandos-permisos' },
+            { text: '4. Sanciones (GUI)', link: '/maxstaff/sanciones' },
+            { text: '5. PlaceholderAPI', link: '/maxstaff/placeholderapi' },
+            { text: '6. Base de Datos', link: '/maxstaff/database' },
+            { text: '7. Discord', link: '/maxstaff/discord' }
           ]
         },
         {
           text: 'Adicional',
           collapsed: true,
           items: [
-            { text: 'Personalización', link: '/maxstaff/adicional/personalización' },
-            { text: 'Protecciones', link: '/maxstaff/adicional/protecciones' },
-            { text: 'Herramientas', link: '/maxstaff/adicional/herramientas' }
+            { text: '1. Personalización', link: '/maxstaff/adicional/personalización' },
+            { text: '2. Protecciones', link: '/maxstaff/adicional/protecciones' },
+            { text: '3. Herramientas', link: '/maxstaff/adicional/herramientas' }
           ]
         }
       ],
 
       '/maxclear/': [
         {
-          text: 'MaxClear',
+          text: 'MAXCLEAR',
           items: [
-            { text: 'Inicio', link: '/maxclear/' },
-            { text: 'Funciones', link: '/maxclear/funciones' },
-            { text: 'Comandos y Permisos', link: '/maxclear/comandos-permisos' }
+            { text: '1. Inicio', link: '/maxclear/' },
+            { text: '2. Funciones', link: '/maxclear/funciones' },
+            { text: '3. Comandos y Permisos', link: '/maxclear/comandos-permisos' }
           ]
         }
       ],
 
       '/maxgraves/': [
         {
-          text: 'MaxGraves',
+          text: 'MAXGRAVES',
           items: [
-            { text: 'Inicio', link: '/maxgraves/' },
-            { text: 'Funciones', link: '/maxgraves/funciones' },
-            { text: 'Comandos y Permisos', link: '/maxgraves/comandos-permisos' }
+            { text: '1. Inicio', link: '/maxgraves/' },
+            { text: '2. Funciones', link: '/maxgraves/funciones' },
+            { text: '3. Comandos y Permisos', link: '/maxgraves/comandos-permisos' }
+          ]
+        }
+      ],
+
+      '/maxevolutiontools/': [
+        {
+          text: 'MAXEVOLUTIONTOOLS',
+          items: [
+            { text: '1. Inicio', link: '/maxevolutiontools/' },
           ]
         }
       ]
