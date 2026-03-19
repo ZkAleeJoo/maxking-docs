@@ -1,16 +1,30 @@
-# DOCUMENTACIÓN
-> Bienvenido a la documentación de los plugins **Max**, seguramente te estes preguntando, ¿Por qué en español? la respuesta es simple, la comunidad de MaxKing esta conformoda por su mayoria en Español, de igual manera en el discord damos soporte en ingles asi no tengan miedo en preguntarnos!
-
-### PLUGINS DISPONIBLES
-1. MaxStaff  `Premium`
-2. MaxClear
-3. MaxGraves
-
-> ¿Cómo adquirir uno de estos plugins?
-- MaxStaff - https://builtbybit.com/resources/maxstaff-premium.94722/
-- MaxClear - https://www.spigotmc.org/resources/maxclear.122239/
-- MaxGraves - https://www.spigotmc.org/resources/maxgraves.133079/
-
 ---
+layout: home
 
-<iframe src="https://discord.com/widget?id=1447634396747137131&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+hero:
+  name: "MaxKingDocs"
+  text: "Documentación Oficial"
+  tagline: "Todo lo que necesitas para configurar y dominar los plugins de la familia Max."
+  image:
+    src: /favicon.ico
+    alt: MaxKing Logo
+  actions:
+    - theme: alt
+      text: Soporte en Discord
+      link: https://discord.gg/TU_LINK_AQUI
+
+features:
+  - title: "MaxStaff (Premium)"
+    details: "El mejor sistema de moderación para tu servidor a traves de menús interactivos"
+    link: "/maxstaff/"
+    linkText: "Ver Documentación"
+  - title: "MaxClear"
+    details: "Mantén tu servidor limpio y sin lag de forma automática y eficiente."
+    link: "/maxclear/"
+    linkText: "Ver Documentación"
+  - title: "MaxGraves"
+    details: "Sistema de tumbas para que tus jugadores no pierdan sus ítems al morir."
+    link: "/maxgraves/"
+    linkText: "Ver Documentación"
+    
+---

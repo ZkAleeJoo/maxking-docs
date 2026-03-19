@@ -69,12 +69,12 @@ body,
   transition: 0.25s ease;
 }
 
-.VPSidebarItem.is-active > .item {
+.VPSidebarItem.is-active>.item {
   background: linear-gradient(90deg, rgba(255, 138, 61, 0.14), transparent 75%);
   border-radius: 10px;
 }
 
-.VPSidebarItem.is-active > .item .text,
+.VPSidebarItem.is-active>.item .text,
 .VPSidebarItem .item:hover .text {
   color: #ff9d57;
 }
@@ -85,11 +85,9 @@ body,
 }
 
 .vp-doc {
-  background: linear-gradient(
-    180deg,
-    rgba(19, 15, 14, 0.88),
-    rgba(14, 11, 10, 0.78)
-  );
+  background: linear-gradient(180deg,
+      rgba(19, 15, 14, 0.88),
+      rgba(14, 11, 10, 0.78));
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 24px;
   padding: 34px;
@@ -137,11 +135,9 @@ body,
 
 .vp-doc blockquote {
   border-left: 3px solid #ff8a3d;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 138, 61, 0.12),
-    rgba(255, 90, 54, 0.08)
-  );
+  background: linear-gradient(90deg,
+      rgba(255, 138, 61, 0.12),
+      rgba(255, 90, 54, 0.08));
   border-radius: 14px;
   padding: 16px 18px;
 }
@@ -156,11 +152,9 @@ body,
 
 
 .VPDocAside .content {
-  background: linear-gradient(
-    180deg,
-    rgba(21, 16, 14, 0.88),
-    rgba(15, 11, 10, 0.80)
-  );
+  background: linear-gradient(180deg,
+      rgba(21, 16, 14, 0.88),
+      rgba(15, 11, 10, 0.80));
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 18px;
   padding: 14px;
@@ -176,11 +170,9 @@ body,
 
 
 .VPDocFooter .pager-link {
-  background: linear-gradient(
-    180deg,
-    rgba(20, 15, 14, 0.82),
-    rgba(14, 10, 9, 0.76)
-  );
+  background: linear-gradient(180deg,
+      rgba(20, 15, 14, 0.82),
+      rgba(14, 10, 9, 0.76));
   border-radius: 16px;
 }
 
