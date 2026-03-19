@@ -203,14 +203,20 @@ body,
   background: linear-gradient(180deg, #ff8a3d, #d9482b);
 }
 
+.vp-doc h1 .VPBadge.tip,
+.vp-doc h2 .VPBadge.tip,
+.vp-doc h3 .VPBadge.tip,
 .VPBadge.tip {
-  border-color: var(--vp-c-brand-1) !important;
-  color: var(--vp-c-brand-1) !important;
-  background-color: rgba(245, 158, 11, 0.16) !important;
+  color: #d97706 !important;
+  background-color: rgba(245, 158, 11, 0.20) !important;
+  border: 1px solid #d97706 !important;
 }
 
+.dark .vp-doc h1 .VPBadge.tip,
+.dark .vp-doc h2 .VPBadge.tip,
+.dark .vp-doc h3 .VPBadge.tip,
 .dark .VPBadge.tip {
-  border-color: var(--vp-c-brand-1) !important;
-  color: var(--vp-c-brand-1) !important;
+  color: #fbbf24 !important;
   background-color: rgba(251, 191, 36, 0.15) !important;
+  border: 1px solid #fbbf24 !important;
 }

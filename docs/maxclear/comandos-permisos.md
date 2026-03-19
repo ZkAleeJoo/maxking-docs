@@ -1,4 +1,4 @@
-# Comandos y Permisos <Badge type="info" text="MaxClear" />
+# Comandos y Permisos
 
 ::: info Sintaxis de Comandos
 Recuerda la estructura de los comandos antes de usarlos:

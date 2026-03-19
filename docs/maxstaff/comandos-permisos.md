@@ -1,4 +1,4 @@
-# Comandos y Permisos <Badge type="tip" text="Premium" />
+# Comandos y Permisos
 
 ::: info Sintaxis de Comandos
 Antes de empezar, ten en cuenta la siguiente leyenda para la lectura de los comandos:
@@ -56,7 +56,7 @@ Estos son los comandos base del sistema y de administración del plugin.
 
 ---
 
-## Permisos Adicionales <Badge type="info" text="Configuración" />
+## Permisos Adicionales 
 
 Existen permisos que no están ligados a un comando directo, sino a funciones o protecciones pasivas dentro del servidor.
 
