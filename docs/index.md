@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "MaxKingDocs"
+  name: "MaxKing"
   text: "Documentación Oficial"
   tagline: "Todo lo que necesitas para configurar y dominar los plugins de la familia Max."
   image:
@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: alt
       text: Soporte en Discord
-      link: https://discord.gg/TU_LINK_AQUI
+      link: https://discord.gg/Vr46JHm2kd
 
 features:
   - title: "MaxStaff (Premium)"

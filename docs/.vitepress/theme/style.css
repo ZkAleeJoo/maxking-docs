@@ -13,10 +13,25 @@
   --vp-c-brand-3: #d9482b;
 
   --vp-c-divider: rgba(255, 255, 255, 0.08);
+
+  --vp-badge-info-border: var(--vp-c-brand-2);
+  --vp-badge-info-text: var(--vp-c-brand-2);
+  --vp-badge-info-bg: var(--vp-c-brand-soft);
+
+  --vp-badge-tip-border: var(--vp-c-brand-1);
+  --vp-badge-tip-text: var(--vp-c-brand-1);
+  --vp-badge-tip-bg: var(--vp-c-brand-soft);
 }
 
 .dark {
   --vp-c-bg: #090909;
+  --vp-badge-info-border: var(--vp-c-brand-1);
+  --vp-badge-info-text: var(--vp-c-brand-1);
+  --vp-badge-info-bg: rgba(251, 191, 36, 0.15);
+
+  --vp-badge-tip-border: var(--vp-c-brand-1);
+  --vp-badge-tip-text: var(--vp-c-brand-1);
+  --vp-badge-tip-bg: rgba(251, 191, 36, 0.15);/
 }
 
 html,
@@ -186,4 +201,16 @@ body,
 
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(180deg, #ff8a3d, #d9482b);
+}
+
+.VPBadge.tip {
+  border-color: var(--vp-c-brand-1) !important;
+  color: var(--vp-c-brand-1) !important;
+  background-color: rgba(245, 158, 11, 0.16) !important;
+}
+
+.dark .VPBadge.tip {
+  border-color: var(--vp-c-brand-1) !important;
+  color: var(--vp-c-brand-1) !important;
+  background-color: rgba(251, 191, 36, 0.15) !important;
 }
