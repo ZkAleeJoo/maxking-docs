@@ -8,7 +8,12 @@ export default defineConfig({
   appearance: 'force-dark',
 
   head: [
-    ['link', { rel: 'icon', href: '/favicon.png' }]
+    ['link', { rel: 'icon', href: '/favicon.png' }],
+    ['meta', { name: 'theme-color', content: '#ff8a3d' }],
+    ['meta', { property: 'og:title', content: 'MaxKing Docs' }],
+    ['meta', { property: 'og:description', content: 'Documentación oficial de los plugins Max.' }],
+    ['meta', { property: 'og:image', content: 'https://docs.maxking.lat/banner.png' }],
+    ['meta', { property: 'og:type', content: 'website' }]
   ],
 
   themeConfig: {
