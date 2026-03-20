@@ -25,6 +25,10 @@ export default defineConfig({
       level: [2, 3]
     },
 
+    lastUpdated: {
+      text: 'Última actualización'
+    },
+
     docFooter: {
       prev: 'Página anterior',
       next: 'Siguiente página'
