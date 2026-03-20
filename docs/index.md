@@ -6,7 +6,7 @@ hero:
   text: "Documentación Oficial"
   tagline: "Todo lo que necesitas para configurar y dominar los plugins de la familia Max."
   image:
-    src: /favicon.ico
+    src: /favicon.png
     alt: MaxKing Logo
   actions:
     - theme: alt

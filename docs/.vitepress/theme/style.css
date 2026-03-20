@@ -220,3 +220,30 @@ body,
   background-color: rgba(251, 191, 36, 0.15) !important;
   border: 1px solid #fbbf24 !important;
 }
+
+.VPHero .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.VPHero .image-src {
+  --x: -150px;
+  --y: -130px;
+
+  animation: floatLogo 4s ease-in-out infinite;
+}
+
+@keyframes floatLogo {
+  0% {
+    transform: translateX(var(--x)) translateY(var(--y));
+  }
+
+  50% {
+    transform: translateX(var(--x)) translateY(calc(var(--y) - 15px));
+  }
+
+  100% {
+    transform: translateX(var(--x)) translateY(var(--y));
+  }
+}
