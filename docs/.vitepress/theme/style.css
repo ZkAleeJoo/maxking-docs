@@ -125,10 +125,11 @@ body,
 }
 
 .vp-doc code {
-  border-radius: 8px;
-  background: rgba(255, 138, 61, 0.10);
-  color: #ffd2b1;
-  padding: 2px 6px;
+  border-radius: 6px;
+  background: rgba(255, 138, 61, 0.12);
+  color: #ffc999;
+  padding: 3px 6px;
+  border: 1px solid rgba(255, 138, 61, 0.2);
 }
 
 .vp-doc h1 {
@@ -246,4 +247,32 @@ body,
   100% {
     transform: translateX(var(--x)) translateY(var(--y));
   }
+}
+
+.VPFeature {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease !important;
+  background: rgba(19, 15, 14, 0.6) !important;
+  border: 1px solid rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(10px);
+}
+
+.VPFeature:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 138, 61, 0.4) !important;
+  box-shadow: 0 10px 30px rgba(255, 138, 61, 0.15);
+}
+
+.VPButton.alt {
+  background: linear-gradient(90deg, #ff9a4d, #ff5a36) !important;
+  border: none !important;
+  color: #fff !important;
+  font-weight: bold;
+  box-shadow: 0 4px 15px rgba(255, 90, 54, 0.3);
+  transition: all 0.3s ease;
+}
+
+.VPButton.alt:hover {
+  background: linear-gradient(90deg, #ffd089, #ff653a) !important;
+  box-shadow: 0 6px 20px rgba(255, 90, 54, 0.5);
+  transform: scale(1.02);
 }
