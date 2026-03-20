@@ -136,7 +136,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'discord', link: 'https://discord.gg/TU_LINK_AQUI' }
+      { icon: 'discord', link: 'https://discord.gg/Vr46JHm2kd' }
     ],
 
     footer: {
