@@ -26,5 +26,7 @@ features:
     details: "Sistema de tumbas para que tus jugadores no pierdan sus ítems al morir."
     link: "/maxgraves/"
     linkText: "Ver Documentación"
-    
----
+  - title: "MaxEvolutionTools"
+    details: "Evoluciona tus herramientas con este sistema único y divertido"
+    link: "/maxevolutiontools/"
+    linkText: "Ver Documentación"
