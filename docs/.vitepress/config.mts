@@ -146,7 +146,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Cualquier duda o consutla por nuestro servidor de discord',
+      message: 'Cualquier duda o consulta por nuestro servidor de discord',
       copyright: 'Copyright © 2026 MaxKing'
     }
 
