@@ -12,8 +12,9 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#ff8a3d' }],
     ['meta', { property: 'og:title', content: 'MaxKing Docs' }],
     ['meta', { property: 'og:description', content: 'Documentación oficial de los plugins Max.' }],
-    ['meta', { property: 'og:image', content: 'https://docs.maxking.lat/banner.png' }],
-    ['meta', { property: 'og:type', content: 'website' }]
+    ['meta', { property: 'og:image', content: 'https://docs.maxking.lat/favicon.png' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { name: 'twitter:card', content: 'summary' }]
   ],
 
   themeConfig: {
