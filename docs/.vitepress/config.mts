@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "MaxKing Docs",
+  lastUpdated: true,
   description: "Documentación oficial de los plugins Max.",
   lang: 'es-ES',
 
