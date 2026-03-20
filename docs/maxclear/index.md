@@ -1,4 +1,4 @@
-**INSIGNIAS:** <Badge type="info" text="1k Descargas" /> 
+**TAGS:** <Badge type="info" text="Gratis" /> <Badge type="info" text="1k Descargas" /> 
 
 # INSTALACIÓN Y REQUISITOS
 > En esta sección aprenderás cómo instalar **MaxClear** en tu servidor y realizar la configuración inicial básica para que el plugin funcione de buena manera, como siempre tienes el servidor de discord https://discord.gg/Vr46JHm2kd

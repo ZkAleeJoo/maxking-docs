@@ -1,4 +1,4 @@
-**INSIGNIAS:** <Badge type="tip" text="Premium" /> 
+**TAGS:** <Badge type="tip" text="Premium" /> 
 
 # INSTALACIÓN Y REQUISITOS
 > En esta sección aprenderás cómo instalar **MaxStaff** en tu servidor y realizar la configuración inicial básica para que el plugin funcione de buena manera, como siempre tienes el servidor de discord https://discord.gg/Vr46JHm2kd
