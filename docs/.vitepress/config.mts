@@ -116,6 +116,8 @@ export default defineConfig({
           text: 'MAXEVOLUTIONTOOLS',
           items: [
             { text: '1. Inicio', link: '/maxevolutiontools/' },
+            { text: '2. Funciones', link: '/maxevolutiontools/funciones' },
+            { text: '3. Comandos y Permisos', link: '/maxevolutiontools/comandos-permisos' }
           ]
         }
       ]
