@@ -1,16 +1,17 @@
-# Comandos y Permisos
+# Commands and Permissions
 
-::: info Sintaxis de Comandos
-Antes de empezar, ten en cuenta la siguiente leyenda para la lectura de los comandos:
-* `[ ]` **Argumento Obligatorio**
-* `< >` **Argumento Opcional**
-:::
+::: info Command Syntax
+Before getting started, keep the following legend in mind when reading commands:
 
-## 1. Comandos Principales
+* `[ ]` **Required Argument**
+* `< >` **Optional Argument**
+  :::
 
-Estos son los comandos base del sistema y de administración del plugin.
+## 1. Main Commands
 
-| Comando     | Alias | Uso                                    | Permiso          |
+These are the core system and administration commands of the plugin.
+
+| Command     | Alias | Usage                                  | Permission       |
 | :---------- | :---- | :------------------------------------- | :--------------- |
 | `/maxstaff` | `/ms` | `/maxstaff`                            | `maxstaff.admin` |
 | `/maxstaff` | -     | `/maxstaff reload`                     | `maxstaff.admin` |
@@ -19,9 +20,9 @@ Estos son los comandos base del sistema y de administración del plugin.
 | `/maxstaff` | -     | `/maxstaff reset [type] [player]`      | `maxstaff.admin` |
 | `/maxstaff` | -     | `/maxstaff debugperms [type] [player]` | `maxstaff.admin` |
 
-## 2. Comandos de Moderación y Sanción
+## 2. Moderation and Punishment Commands
 
-| Comando       | Alias              | Uso                                    | Permiso                   |
+| Command       | Alias              | Usage                                  | Permission                |
 | :------------ | :----------------- | :------------------------------------- | :------------------------ |
 | `/staff`      | `/s`, `/staffmode` | `/staff`                               | `maxstaff.command.staff`  |
 | `/ban`        | -                  | `/ban [player] <time> <reason>`        | `maxstaff.punish.ban`     |
@@ -40,9 +41,9 @@ Estos son los comandos base del sistema y de administración del plugin.
 | `/freeze`     | `/ss`              | `/freeze [player]`                     | `maxstaff.freeze`         |
 | `/unfreeze`   | `/uss`             | `/unfreeze [player]`                   | `maxstaff.freeze`         |
 
-## 3. Utilidades del Staff
+## 3. Staff Utilities
 
-| Comando     | Alias           | Uso                    | Permiso               |
+| Command     | Alias           | Usage                  | Permission            |
 | :---------- | :-------------- | :--------------------- | :-------------------- |
 | `/vanish`   | -               | `/vanish`              | `maxstaff.vanish`     |
 | `/sc`       | -               | `/sc [message]`        | `maxstaff.staffchat`  |
@@ -56,11 +57,11 @@ Estos son los comandos base del sistema y de administración del plugin.
 
 ---
 
-## Permisos Adicionales 
+## Additional Permissions
 
-Existen permisos que no están ligados a un comando directo, sino a funciones o protecciones pasivas dentro del servidor.
+There are permissions that are not tied to a direct command, but rather to passive features or protections within the server.
 
-| Comando                      | Descripción                                                                 |
+| Permission                   | Description                                                                 |
 | :--------------------------- | :-------------------------------------------------------------------------- |
 | `maxstaff.mode`              | Allows entering Staff Mode.                                                 |
 | `maxstaff.see.vanish`        | Allows seeing other staff members who are hidden in vanish mode.            |
@@ -72,6 +73,6 @@ Existen permisos que no están ligados a un comando directo, sino a funciones o 
 | `maxstaff.punish.protected`  | Protects a player from being punished by lower-ranked staff.                |
 | `maxstaff.client.notify`     | Allows staff to receive notifications from the client detection system.     |
 
-::: warning Acceso Total
-El permiso `maxstaff.admin` otorga acceso absoluto a **todos** los comandos y características del plugin. Asígnalo únicamente a administradores de extrema confianza.
+::: warning Full Access
+The `maxstaff.admin` permission grants full access to **all** commands and features of the plugin. Assign it only to highly trusted administrators.
 :::
