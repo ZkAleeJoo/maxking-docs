@@ -78,6 +78,15 @@ body,
 .VPSidebar {
   background: linear-gradient(180deg, rgba(11, 11, 11, 0.98), rgba(18, 12, 10, 0.98)) !important;
   border-right: 1px solid rgba(255, 255, 255, 0.05);
+  padding-left: 10px;
+}
+
+.VPSidebarItem .item {
+  padding-left: 14px !important;
+}
+
+.VPSidebarItem {
+  padding-left: 6px;
 }
 
 .VPSidebarItem .text {
