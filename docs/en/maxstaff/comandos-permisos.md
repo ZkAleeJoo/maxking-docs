@@ -40,6 +40,7 @@ These are the core system and administration commands of the plugin.
 | `/sanction`   | -                  | `/sanction [player]`                   | `maxstaff.punish`         |
 | `/freeze`     | `/ss`              | `/freeze [player]`                     | `maxstaff.freeze`         |
 | `/unfreeze`   | `/uss`             | `/unfreeze [player]`                   | `maxstaff.freeze`         |
+| `fly`         |                    | `/fly 1 2 3`                           | `maxstaff.fly`            |
 
 ## 3. Staff Utilities
 
