@@ -41,14 +41,14 @@ server-name: "Survival 1.20"
 ## 3. Variables Disponibles
 > Puedes usar estas variables dentro de la configuración de tus *embeds* en el `discord.yml` para mostrar información dinámica:
 
-| Variable | Descripción |
-| :--- | :--- |
-| `{target}` | Nombre del jugador afectado o reportado |
-| `{staff}` | Nombre del miembro del staff que ejecutó la acción |
-| `{reason}` | Razón de la sanción, alerta o reporte |
-| `{duration}` | Tiempo de la sanción (solo aplica para temporal bans/mutes) |
-| `{count}` | Número de advertencias (warns) acumuladas del jugador |
-| `{reporter}` | Nombre del jugador que emitió un reporte |
-| `{face}` | URL que muestra el avatar/cabeza 3D del jugador afectado |
-| `{world}` | Mundo donde se encontraba el jugador (usado en reportes) |
-| `{x}`, `{y}`, `{z}` | Coordenadas exactas del jugador (usado en reportes) |
+| Variable            | Descripción                                                 |
+| :-------------------| :-----------------------------------------------------------|
+| `{target}`          | Nombre del jugador afectado o reportado                     |
+| `{staff}`           | Nombre del miembro del staff que ejecutó la acción          |
+| `{reason}`          | Razón de la sanción, alerta o reporte                       |
+| `{duration}`        | Tiempo de la sanción (solo aplica para temporal bans/mutes) |
+| `{count}`           | Número de advertencias (warns) acumuladas del jugador       |
+| `{reporter}`        | Nombre del jugador que emitió un reporte                    |
+| `{face}`            | URL que muestra el avatar/cabeza 3D del jugador afectado    |
+| `{world}`           | Mundo donde se encontraba el jugador (usado en reportes)    |
+| `{x}`, `{y}`, `{z}` | Coordenadas exactas del jugador (usado en reportes)         |

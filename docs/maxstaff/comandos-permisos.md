@@ -61,17 +61,17 @@ Estos son los comandos base del sistema y de administración del plugin.
 
 Existen permisos que no están ligados a un comando directo, sino a funciones o protecciones pasivas dentro del servidor.
 
-| Comando                      | Descripción                                                                 |
-| :--------------------------- | :-------------------------------------------------------------------------- |
-| `maxstaff.mode`              | Allows entering Staff Mode.                                                 |
-| `maxstaff.see.vanish`        | Allows seeing other staff members who are hidden in vanish mode.            |
-| `maxstaff.cmdspy.raw`        | Allows viewing raw sensitive arguments in cmdspy logs.                      |
-| `maxstaff.cmdspy.raw.owners` | Group node (usually for owners) that includes raw cmdspy access.            |
-| `maxstaff.report.notify`     | Allows staff to receive notifications when someone uses the report command. |
-| `maxstaff.report.bypass`     | Allows players to bypass report cooldowns.                                  |
-| `maxstaff.punish.override`   | Allows bypassing protections to punish protected staff members.             |
-| `maxstaff.punish.protected`  | Protects a player from being punished by lower-ranked staff.                |
-| `maxstaff.client.notify`     | Allows staff to receive notifications from the client detection system.     |
+| Comando                      | Descripción                                                                                                |
+| :--------------------------- | :----------------------------------------------------------------------------------------------------------|
+| `maxstaff.mode`              | Permite acceder al modo de personal.                                                                       |
+| `maxstaff.see.vanish`        | Permite ver a otros miembros del personal que están ocultos en modo invisible.                             |
+| `maxstaff.cmdspy.raw`        | Permite visualizar argumentos confidenciales sin procesar en los registros de cmdspy.                      |
+| `maxstaff.cmdspy.raw.owners` | Nodo de grupo (normalmente para propietarios) que incluye acceso directo a cmdspy.                         |
+| `maxstaff.report.notify`     | Permite que el personal reciba notificaciones cuando alguien utiliza el comando de informe.                |
+| `maxstaff.report.bypass`     | Permite a los jugadores pasar por alto las enfriamientos del informe.                                      |
+| `maxstaff.punish.override`   | Permite eludir las medidas de protección para castigar a los miembros del personal protegidos.             |
+| `maxstaff.punish.protected`  | Protege al jugador de ser castigado por personal de menor rango.                                           |
+| `maxstaff.client.notify`     | Permite que el personal reciba notificaciones del sistema de detección de clientes.                        |
 
 ::: warning Acceso Total
 El permiso `maxstaff.admin` otorga acceso absoluto a **todos** los comandos y características del plugin. Asígnalo únicamente a administradores de extrema confianza.

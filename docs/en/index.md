@@ -26,7 +26,3 @@ features:
     details: "Grave system so your players don't lose their items when they die."
     link: "/en/maxgraves/"
     linkText: "View Documentation"
-  - title: "MaxEvolutionTools"
-    details: "Evolve your tools with this unique and fun system."
-    link: "/en/maxevolutiontools/"
-    linkText: "View Documentation"
