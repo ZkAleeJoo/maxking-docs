@@ -97,16 +97,6 @@ export default defineConfig({
               ]
             }
           ],
-          '/maxevolutiontools/': [
-            {
-              text: 'MAXEVOLUTIONTOOLS',
-              items: [
-                { text: '1. Inicio', link: '/maxevolutiontools/' },
-                { text: '2. Funciones', link: '/maxevolutiontools/funciones' },
-                { text: '3. Comandos y Permisos', link: '/maxevolutiontools/comandos-permisos' }
-              ]
-            }
-          ]
         },
 
         footer: {
@@ -198,16 +188,6 @@ export default defineConfig({
               ]
             }
           ],
-          '/en/maxevolutiontools/': [
-            {
-              text: 'MAXEVOLUTIONTOOLS',
-              items: [
-                { text: '1. Home', link: '/en/maxevolutiontools/' },
-                { text: '2. Features', link: '/en/maxevolutiontools/funciones' },
-                { text: '3. Commands & Permissions', link: '/en/maxevolutiontools/comandos-permisos' }
-              ]
-            }
-          ]
         },
 
         footer: {
