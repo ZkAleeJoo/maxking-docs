@@ -73,6 +73,7 @@ There are permissions that are not tied to a direct command, but rather to passi
 | `maxstaff.punish.override`   | Allows bypassing protections to punish protected staff members.             |
 | `maxstaff.punish.protected`  | Protects a player from being punished by lower-ranked staff.                |
 | `maxstaff.client.notify`     | Allows staff to receive notifications from the client detection system.     |
+| `maxstaff.vanish.join`       | Allows staff to enter vanish mode when joining the server.                  |
 
 ::: warning Full Access
 The `maxstaff.admin` permission grants full access to **all** commands and features of the plugin. Assign it only to highly trusted administrators.

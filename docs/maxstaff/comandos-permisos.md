@@ -72,6 +72,7 @@ Existen permisos que no están ligados a un comando directo, sino a funciones o 
 | `maxstaff.punish.override`   | Permite eludir las medidas de protección para castigar a los miembros del personal protegidos.             |
 | `maxstaff.punish.protected`  | Protege al jugador de ser castigado por personal de menor rango.                                           |
 | `maxstaff.client.notify`     | Permite que el personal reciba notificaciones del sistema de detección de clientes.                        |
+| `maxstaff.vanish.join`       | Permite que el personal entre en modo invisible al unirse al servidor.                                     |
 
 ::: warning Acceso Total
 El permiso `maxstaff.admin` otorga acceso absoluto a **todos** los comandos y características del plugin. Asígnalo únicamente a administradores de extrema confianza.
