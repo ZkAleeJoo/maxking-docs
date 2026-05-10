@@ -54,6 +54,8 @@ Estos son los comandos base del sistema y de administración del plugin.
 | `/report`   | `/reportar`     | `/report [player]`     | `maxstaff.report`     |
 | `/invsee`   | -               | `/invsee [player]`     | `maxstaff.invsee`     |
 | `/revive`   | -               | `/revive [player]`     | `maxstaff.revive`     |
+| `/xray`     | -               | `/xray`                | `maxstaff.antixray.bypass` |               |
+| `/xray`     | -               | `/xray`                | `maxstaff.antixray.alert` |               |
 
 ---
 

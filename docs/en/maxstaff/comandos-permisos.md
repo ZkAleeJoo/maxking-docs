@@ -44,17 +44,19 @@ These are the core system and administration commands of the plugin.
 
 ## 3. Staff Utilities
 
-| Command     | Alias           | Usage                  | Permission            |
-| :---------- | :-------------- | :--------------------- | :-------------------- |
-| `/vanish`   | -               | `/vanish`              | `maxstaff.vanish`     |
-| `/sc`       | -               | `/sc [message]`        | `maxstaff.staffchat`  |
-| `/cmdspy`   | -               | `/cmdspy`              | `maxstaff.cmdspy`     |
-| `/chat`     | -               | `/chat [clear / mute]` | `maxstaff.chat.admin` |
-| `/gamemode` | `/gm`           | `/gm [1/2/3]`          | `maxstaff.gamemode`   |
-| `/alts`     | `/alt`, `/accs` | `/alts [player]`       | `maxstaff.alts`       |
-| `/report`   | `/reportar`     | `/report [player]`     | `maxstaff.report`     |
-| `/invsee`   | -               | `/invsee [player]`     | `maxstaff.invsee`     |
-| `/revive`   | -               | `/revive [player]`     | `maxstaff.revive`     |
+| Command     | Alias           | Usage                  | Permission                |
+| :---------- | :-------------- | :--------------------- | :-------------------------|
+| `/vanish`   | -               | `/vanish`              | `maxstaff.vanish`         |
+| `/sc`       | -               | `/sc [message]`        | `maxstaff.staffchat`      |
+| `/cmdspy`   | -               | `/cmdspy`              | `maxstaff.cmdspy`         |
+| `/chat`     | -               | `/chat [clear / mute]` | `maxstaff.chat.admin`     |
+| `/gamemode` | `/gm`           | `/gm [1/2/3]`          | `maxstaff.gamemode`       |
+| `/alts`     | `/alt`, `/accs` | `/alts [player]`       | `maxstaff.alts`           |
+| `/report`   | `/reportar`     | `/report [player]`     | `maxstaff.report`         |
+| `/invsee`   | -               | `/invsee [player]`     | `maxstaff.invsee`         |
+| `/revive`   | -               | `/revive [player]`     | `maxstaff.revive`         |
+| `/xray`     | -               | `/xray`                | `maxstaff.antixray.bypass`|
+| `/xray`     | -               | `/xray`                | `maxstaff.antixray.alert` |
 
 ---
 
