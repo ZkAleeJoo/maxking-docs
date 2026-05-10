@@ -26,3 +26,7 @@ features:
     details: "Grave system so your players don't lose their items when they die."
     link: "/en/maxgraves/"
     linkText: "View Documentation"
+  - title: "MaxTools (Premium)"
+    details: "Tool progression system and skills through interactive menus"
+    link: "/en/maxtools/"
+    linkText: "View Documentation"

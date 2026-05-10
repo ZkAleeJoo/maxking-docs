@@ -26,3 +26,7 @@ features:
     details: "Sistema de tumbas para que tus jugadores no pierdan sus ítems al morir."
     link: "/maxgraves/"
     linkText: "Ver Documentación"
+  - title: "MaxTools (Premium)"
+    details: "Sistema de progresión de herramientas y habilidades a traves de menús interactivos"
+    link: "/maxtools/"
+    linkText: "Ver Documentación"

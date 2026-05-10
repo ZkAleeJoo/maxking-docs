@@ -8,8 +8,8 @@
 
 > Before proceeding, make sure your environment meets the following requirements:
 
-* **Minecraft Version:** 1.19.x (Specifically tested on 1.19.4).
-* **Java:** Version 17 or higher.
+* **Minecraft Version:** 1.21.x - 26.1.2
+* **Java:** Version 21 or higher.
 * **Server Software:** Paper, Purpur, Pufferfish, or any fork compatible with the Paper API.
 
 ## 2. Optional Dependencies

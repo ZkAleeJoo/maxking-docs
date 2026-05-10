@@ -5,8 +5,8 @@
 
 ## 1. Requisitos del servidor
 > Antes de continuar, asegúrate de que tu entorno cumpla con los siguientes requisitos:
-- **Versión de Minecraft:** 1.19.x (Probado específicamente en 1.19.4).
-- **Java:** Versión 17 o superior.
+- **Versión de Minecraft:** 1.21.x - 26.1.2
+- **Java:** Versión 21 o superior
 - **Software del servidor:** Paper, Purpur, Puperfish o cualquier fork compatible con la API de Paper.
  
 ## 2. Dependencias opcionales

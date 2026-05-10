@@ -38,14 +38,16 @@ export default defineConfig({
             items: [
               {
                 text: '👑 PREMIUM',
-                items: [{ text: 'MaxStaff', link: '/maxstaff/' }]
+                items: [
+                  { text: 'MaxStaff', link: '/maxstaff/' },
+                  { text: 'MaxTools', link: '/maxtools/' }
+                ]
               },
               {
                 text: '🌳 GRATUITOS',
                 items: [
                   { text: 'MaxClear', link: '/maxclear/' },
                   { text: 'MaxGraves', link: '/maxgraves/' },
-                  { text: 'MaxEvolutionTools', link: '/maxevolutiontools/' }
                 ]
               }
             ]
@@ -74,6 +76,25 @@ export default defineConfig({
                 { text: '1. Personalización', link: '/maxstaff/adicional/personalización' },
                 { text: '2. Protecciones', link: '/maxstaff/adicional/protecciones' },
                 { text: '3. Herramientas', link: '/maxstaff/adicional/herramientas' }
+              ]
+            }
+          ],
+          '/maxtools/': [
+            {
+              text: 'MAXTOOLS',
+              items: [
+                { text: '1. Inicio', link: '/maxtools/' },
+                { text: '2. Funciones', link: '/maxtools/funciones' },
+                { text: '3. Comandos y Permisos', link: '/maxtools/comandos-permisos' },
+                { text: '4. Menus (GUI)', link: '/maxtools/menus' },
+                { text: '5. Discord', link: '/maxtools/discord' }
+              ]
+            },
+            {
+              text: 'Adicional',
+              collapsed: true,
+              items: [
+                { text: '1. Personalización', link: '/maxtools/adicional/personalización' },
               ]
             }
           ],
@@ -129,14 +150,16 @@ export default defineConfig({
             items: [
               {
                 text: '👑 PREMIUM',
-                items: [{ text: 'MaxStaff', link: '/en/maxstaff/' }]
+                items: [
+                  { text: 'MaxStaff', link: '/maxstaff/' },
+                  { text: 'MaxTools', link: '/maxtools/' }
+                ]
               },
               {
-                text: '🌳 FREE',
+                text: '🌳 GRATUITOS',
                 items: [
-                  { text: 'MaxClear', link: '/en/maxclear/' },
-                  { text: 'MaxGraves', link: '/en/maxgraves/' },
-                  { text: 'MaxEvolutionTools', link: '/en/maxevolutiontools/' }
+                  { text: 'MaxClear', link: '/maxclear/' },
+                  { text: 'MaxGraves', link: '/maxgraves/' },
                 ]
               }
             ]
@@ -165,6 +188,25 @@ export default defineConfig({
                 { text: '1. Customization', link: '/en/maxstaff/adicional/personalización' },
                 { text: '2. Protections', link: '/en/maxstaff/adicional/protecciones' },
                 { text: '3. Tools', link: '/en/maxstaff/adicional/herramientas' }
+              ]
+            }
+          ],
+          '/maxtools/': [
+            {
+              text: 'MAXTOOLS',
+              items: [
+                { text: '1. Inicio', link: '/maxtools/' },
+                { text: '2. Funciones', link: '/maxtools/funciones' },
+                { text: '3. Comandos y Permisos', link: '/maxtools/comandos-permisos' },
+                { text: '4. Menus (GUI)', link: '/maxtools/menus' },
+                { text: '5. Discord', link: '/maxtools/discord' }
+              ]
+            },
+            {
+              text: 'Adicional',
+              collapsed: true,
+              items: [
+                { text: '1. Personalización', link: '/maxtools/adicional/personalización' },
               ]
             }
           ],
