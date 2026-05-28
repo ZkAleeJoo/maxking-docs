@@ -1,9 +1,10 @@
-# Integración con Discord
+# Integracion con Discord
 
-¡Celebra los logros de tus jugadores! MaxTools incluye soporte nativo para **Webhooks de Discord**.
+MaxTools incluye soporte nativo para webhooks de Discord y puede enviar notificaciones cuando un jugador desbloquea milestones o habilidades.
 
-## Cómo habilitarlo
-Para enviar notificaciones a tu servidor de Discord, dirígete al archivo `config.yml` y ajusta la sección `discord`:
+## Como Habilitarlo
+
+Edita la seccion `discord` de `config.yml`:
 
 ```yaml
 discord:
@@ -13,17 +14,17 @@ discord:
   events:
     milestone-unlocked: true
     ability-unlocked: true
-
 ```
 
 ## Embeds Personalizados
 
-Por defecto, el plugin envía **Embeds** modernos y enriquecidos (`discord.embeds.enabled: true`).
+Por defecto, el plugin envia embeds modernos (`discord.embeds.enabled: true`).
 
-* **Avatares:** Incluye automáticamente el rostro de la skin del jugador (`https://mc-heads.net/avatar/{player}/128`).
-* **Placeholders:** Soporta etiquetas dinámicas como `{player}`, `{tool}`, `{blocks}` y `{ability}`.
-* **Formatos Opcionales:** Si prefieres mensajes de texto simple, puedes desactivar los embeds y configurar la sección `templates`.
+* **Avatares:** Puedes usar el rostro de la skin del jugador con `https://mc-heads.net/avatar/{player}/128`.
+* **Placeholders:** Los templates y valores del embed aceptan `{player}`, `{player_uuid}`, `{tool}`, `{tool_type}`, `{blocks}`, `{ability}`, `{reward}`, `{timestamp}`, `{server}`, `{server_software}` y `{plugin}`.
+* **Formato legacy:** Si desactivas los embeds, MaxTools usa los mensajes de `discord.templates`.
+* **Pings seguros:** `allowed-mentions.parse` controla si Discord puede mencionar `everyone`, roles o usuarios. Por defecto queda vacio para evitar pings accidentales.
 
-::: tip Prueba de Conexión
-Una vez configurado, usa `/met discordtest` (o su alias `/met dctest`) dentro del servidor para enviar un mensaje de prueba a tu canal y verificar que el formato y la URL sean correctos.
+::: tip Prueba de Conexion
+Usa `/met discordtest` o `/met dctest` para enviar un mensaje de prueba y validar la URL, el formato y los placeholders.
 :::

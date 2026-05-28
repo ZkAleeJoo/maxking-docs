@@ -1,47 +1,47 @@
-# Placeholders (PAPI)
+# Placeholders (PlaceholderAPI)
 
-> MaxStaff features deep integration with PlaceholderAPI, allowing you to extract plugin data and display it dynamically in any compatible plugin.
+MaxStaff registers the `maxstaff` expansion when PlaceholderAPI is installed.
 
 ## Requirements
 
-* Have the [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) plugin installed.
-* The plugin will automatically detect PAPI on startup.
+* Install [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/).
+* Restart or reload the server so MaxStaff can detect the dependency.
 
-## Information
-
-> These placeholders will work as long as you have PlaceholderAPI installed:
+## Available Placeholders
 
 ### Staff States
 
-* `%maxstaff_in_staff_mode%` - Indicates whether the user has Staff Mode enabled.
-* `%maxstaff_vanished%` - Indicates whether the user is invisible (Vanish).
-* `%maxstaff_frozen%` - Indicates whether the player is currently frozen (SS).
-* `%maxstaff_is_spy%` - Indicates whether the staff member has command spy enabled.
+| Placeholder | Result |
+| :--- | :--- |
+| `%maxstaff_in_staff_mode%` | Returns the true/false text depending on whether the player has Staff Mode enabled. |
+| `%maxstaff_vanished%` | Returns the true/false text depending on whether the player is vanished. |
+| `%maxstaff_frozen%` | Returns the true/false text depending on whether the player is frozen. |
+| `%maxstaff_is_spy%` | Returns the true/false text depending on whether the staff member has cmdspy enabled. |
 
 ### Punishment Statistics
 
-* `%maxstaff_warn_count%` - Total number of warnings.
-* `%maxstaff_ban_count%` - Total number of bans.
-* `%maxstaff_mute_count%` - Total number of mutes.
-* `%maxstaff_kick_count%` - Total number of kicks.
-* `%maxstaff_total_punishments%` - Total sum of bans, mutes, and kicks.
+| Placeholder | Result |
+| :--- | :--- |
+| `%maxstaff_warn_count%` | Total warns for the player. |
+| `%maxstaff_ban_count%` | Total bans for the player. |
+| `%maxstaff_mute_count%` | Total mutes for the player. |
+| `%maxstaff_kick_count%` | Total kicks for the player. |
+| `%maxstaff_total_punishments%` | Sum of bans, mutes, and kicks. |
 
 ### Player Statistics
 
-* `%maxstaff_playtime%` - Total playtime formatted (e.g., 2h 30m).
+| Placeholder | Result |
+| :--- | :--- |
+| `%maxstaff_playtime%` | Online player's playtime in `2h 30m` format. Offline players return `0h 0m`. |
 
-### Customization
+## Customization
 
-You can change the "Yes" and "No" texts (boolean states) directly from your messages file:
-
-1. Open `lang/messages_es.yml` (or your selected language file).
-2. Locate the `placeholders` section:
+Boolean placeholders use these texts from the active language file:
 
 ```yaml
 placeholders:
   status-true: "&aYes"
   status-false: "&cNo"
-  playtime-format: "{hours}h {minutes}m"
 ```
 
-3. These changes will automatically apply to all your placeholders.
+`%maxstaff_playtime%` uses Bukkit's native playtime statistic (`PLAY_ONE_MINUTE`) and currently returns short hours/minutes output.

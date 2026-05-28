@@ -44,7 +44,7 @@ export default defineConfig({
                 ]
               },
               {
-                text: '🌳 GRATUITOS',
+                text: '🌳 GRATIS',
                 items: [
                   { text: 'MaxClear', link: '/maxclear/' },
                   { text: 'MaxGraves', link: '/maxgraves/' },
@@ -151,15 +151,15 @@ export default defineConfig({
               {
                 text: '👑 PREMIUM',
                 items: [
-                  { text: 'MaxStaff', link: '/maxstaff/' },
-                  { text: 'MaxTools', link: '/maxtools/' }
+                  { text: 'MaxStaff', link: '/en/maxstaff/' },
+                  { text: 'MaxTools', link: '/en/maxtools/' }
                 ]
               },
               {
-                text: '🌳 GRATUITOS',
+                text: '🌳 FREE',
                 items: [
-                  { text: 'MaxClear', link: '/maxclear/' },
-                  { text: 'MaxGraves', link: '/maxgraves/' },
+                  { text: 'MaxClear', link: '/en/maxclear/' },
+                  { text: 'MaxGraves', link: '/en/maxgraves/' },
                 ]
               }
             ]
@@ -191,22 +191,22 @@ export default defineConfig({
               ]
             }
           ],
-          '/maxtools/': [
+          '/en/maxtools/': [
             {
               text: 'MAXTOOLS',
               items: [
-                { text: '1. Inicio', link: '/maxtools/' },
-                { text: '2. Funciones', link: '/maxtools/funciones' },
-                { text: '3. Comandos y Permisos', link: '/maxtools/comandos-permisos' },
-                { text: '4. Menus (GUI)', link: '/maxtools/menus' },
-                { text: '5. Discord', link: '/maxtools/discord' }
+                { text: '1. Home', link: '/en/maxtools/' },
+                { text: '2. Features', link: '/en/maxtools/funciones' },
+                { text: '3. Commands & Permissions', link: '/en/maxtools/comandos-permisos' },
+                { text: '4. Menus (GUI)', link: '/en/maxtools/menus' },
+                { text: '5. Discord', link: '/en/maxtools/discord' }
               ]
             },
             {
-              text: 'Adicional',
+              text: 'Additional',
               collapsed: true,
               items: [
-                { text: '1. Personalización', link: '/maxtools/adicional/personalización' },
+                { text: '1. Customization', link: '/en/maxtools/adicional/personalización' },
               ]
             }
           ],

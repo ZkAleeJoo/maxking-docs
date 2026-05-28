@@ -1,38 +1,47 @@
-# Placeholders (PAPI)
-> MaxStaff cuenta con una integración profunda con PlaceholderAPI, lo que te permite extraer datos del plugin y mostrarlos dinámicamente en cualquier otro plugin compatible.
+# Placeholders (PlaceholderAPI)
+
+MaxStaff registra la expansion `maxstaff` cuando PlaceholderAPI esta instalado.
 
 ## Requisitos
-- Tener el plugin [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) instalado.
-- El plugin detectará automáticamente la presencia de PAPI al iniciar.
 
-## Información
-> Estos placeholder funcionarán siempre y cuando tengas el plugin PlaceholderAPI instalado:
- 
-### Estados de staff
-- `%maxstaff_in_staff_mode%` - Indica si el usuario tiene el modo staff activo.
-- `%maxstaff_vanished%` - Indica si el usuario está invisible (Vanish).
-- `%maxstaff_frozen%` - Indica si el jugador está actualmente congelado (SS).
-- `%maxstaff_is_spy%` - Indica si el staff tiene el modo espía de comandos activo.
+* Tener [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) instalado.
+* Reiniciar o recargar el servidor para que MaxStaff detecte la dependencia.
 
-### Estadísticas de Sanciones
-- `%maxstaff_warn_count%` - Total de advertencias.
-- `%maxstaff_ban_count%` - Total de baneos (Bans).
-- `%maxstaff_mute_count%` - Total de silencios (Mutes).
-- `%maxstaff_kick_count%` - Total de expulsiones (Kicks).
-- `%maxstaff_total_punishments%` - Suma total de Bans, Mutes y Kicks.
+## Placeholders Disponibles
 
-### Estadísticas del Jugador
-- `%maxstaff_playtime%` - Tiempo de juego total formateado (ej: 2h 30m)
+### Estados de Staff
 
-### Personalización
-Puedes cambiar los textos de "Sí" y "No" (los estados booleanos) directamente desde tu archivo de mensajes:
-1. Abre `lang/messages_es.yml` (o el idioma que uses).
-2. Busca la sección `placeholders`:
+| Placeholder | Resultado |
+| :--- | :--- |
+| `%maxstaff_in_staff_mode%` | Devuelve el texto verdadero/falso segun si el jugador tiene Staff Mode activo. |
+| `%maxstaff_vanished%` | Devuelve el texto verdadero/falso segun si el jugador esta en vanish. |
+| `%maxstaff_frozen%` | Devuelve el texto verdadero/falso segun si el jugador esta congelado. |
+| `%maxstaff_is_spy%` | Devuelve el texto verdadero/falso segun si el staff tiene cmdspy activo. |
 
-```YAML
+### Estadisticas de Sanciones
+
+| Placeholder | Resultado |
+| :--- | :--- |
+| `%maxstaff_warn_count%` | Total de warns del jugador. |
+| `%maxstaff_ban_count%` | Total de bans del jugador. |
+| `%maxstaff_mute_count%` | Total de mutes del jugador. |
+| `%maxstaff_kick_count%` | Total de kicks del jugador. |
+| `%maxstaff_total_punishments%` | Suma de bans, mutes y kicks. |
+
+### Estadisticas del Jugador
+
+| Placeholder | Resultado |
+| :--- | :--- |
+| `%maxstaff_playtime%` | Tiempo jugado del jugador online en formato `2h 30m`. Si esta offline devuelve `0h 0m`. |
+
+## Personalizacion
+
+Los placeholders booleanos usan estos textos del archivo de idioma activo:
+
+```yaml
 placeholders:
   status-true: "&aYes"
   status-false: "&cNo"
-  playtime-format: "{hours}h {minutes}m"
 ```
-3. Estos cambios se reflejarán automáticamente en todos tus placeholders.
+
+El placeholder `%maxstaff_playtime%` usa el tiempo de juego nativo de Bukkit (`PLAY_ONE_MINUTE`) y actualmente devuelve horas/minutos en formato corto.
