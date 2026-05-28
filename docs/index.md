@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "MaxKing"
-  text: "Documentación Oficial"
+  text: "Documentacion Oficial"
   tagline: "Todo lo que necesitas para configurar y dominar los plugins de la familia Max."
   image:
     src: /favicon.png
@@ -15,18 +15,22 @@ hero:
 
 features:
   - title: "MaxStaff (Premium)"
-    details: "El mejor sistema de moderación para tu servidor a traves de menús interactivos"
+    details: "El mejor sistema de moderacion para tu servidor a traves de menus interactivos."
     link: "/maxstaff/"
-    linkText: "Ver Documentación"
+    linkText: "Ver Documentacion"
   - title: "MaxClear"
-    details: "Mantén tu servidor limpio y sin lag de forma automática y eficiente."
+    details: "Manten tu servidor limpio y sin lag de forma automatica y eficiente."
     link: "/maxclear/"
-    linkText: "Ver Documentación"
+    linkText: "Ver Documentacion"
+  - title: "MaxProtections"
+    details: "Sistema gratuito de protecciones con WorldGuard, piedras configurables, menus y permisos."
+    link: "/maxprotections/"
+    linkText: "Ver Documentacion"
   - title: "MaxGraves"
-    details: "Sistema de tumbas para que tus jugadores no pierdan sus ítems al morir."
+    details: "Sistema de tumbas para que tus jugadores no pierdan sus items al morir."
     link: "/maxgraves/"
-    linkText: "Ver Documentación"
+    linkText: "Ver Documentacion"
   - title: "MaxTools (Premium)"
-    details: "Sistema de progresión de herramientas y habilidades a traves de menús interactivos"
+    details: "Sistema de progresion de herramientas y habilidades a traves de menus interactivos."
     link: "/maxtools/"
-    linkText: "Ver Documentación"
+    linkText: "Ver Documentacion"

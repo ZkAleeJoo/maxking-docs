@@ -46,6 +46,7 @@ export default defineConfig({
               {
                 text: '🌳 GRATIS',
                 items: [
+                  { text: 'MaxProtections', link: '/maxprotections/' },
                   { text: 'MaxClear', link: '/maxclear/' },
                   { text: 'MaxGraves', link: '/maxgraves/' },
                 ]
@@ -108,6 +109,17 @@ export default defineConfig({
               ]
             }
           ],
+          '/maxprotections/': [
+            {
+              text: 'MAXPROTECTIONS',
+              items: [
+                { text: '1. Inicio', link: '/maxprotections/' },
+                { text: '2. Funciones', link: '/maxprotections/funciones' },
+                { text: '3. Configuracion', link: '/maxprotections/configuracion' },
+                { text: '4. Comandos y Permisos', link: '/maxprotections/comandos-permisos' }
+              ]
+            }
+          ],
           '/maxgraves/': [
             {
               text: 'MAXGRAVES',
@@ -158,6 +170,7 @@ export default defineConfig({
               {
                 text: '🌳 FREE',
                 items: [
+                  { text: 'MaxProtections', link: '/en/maxprotections/' },
                   { text: 'MaxClear', link: '/en/maxclear/' },
                   { text: 'MaxGraves', link: '/en/maxgraves/' },
                 ]
@@ -217,6 +230,17 @@ export default defineConfig({
                 { text: '1. Home', link: '/en/maxclear/' },
                 { text: '2. Features', link: '/en/maxclear/funciones' },
                 { text: '3. Commands & Permissions', link: '/en/maxclear/comandos-permisos' }
+              ]
+            }
+          ],
+          '/en/maxprotections/': [
+            {
+              text: 'MAXPROTECTIONS',
+              items: [
+                { text: '1. Home', link: '/en/maxprotections/' },
+                { text: '2. Features', link: '/en/maxprotections/funciones' },
+                { text: '3. Configuration', link: '/en/maxprotections/configuracion' },
+                { text: '4. Commands & Permissions', link: '/en/maxprotections/comandos-permisos' }
               ]
             }
           ],
